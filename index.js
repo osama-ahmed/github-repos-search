@@ -33,4 +33,6 @@ getRepos({
 .then((repositories) => console.log(repositories));
 */
 
-module.exports = { getRepos };
+module.exports = {
+  getRepos
+};
