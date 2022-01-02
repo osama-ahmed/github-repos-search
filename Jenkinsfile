@@ -27,7 +27,7 @@
 pipeline {
     agent any
     stages {
-        stage('Test') {
+        stage('build') {
             steps {
                 //sh 'echo "Fail!"; exit 1'
                 sh 'echo "hello";'
