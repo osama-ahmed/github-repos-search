@@ -24,14 +24,14 @@ const getRepos = async ({
   }
 };
 
-/*
+
 getRepos({
     username: 'osama-ahmed',
     page:1,
     per_page:30
 })
 .then((repositories) => console.log(repositories));
-*/
+
 
 module.exports = {
   getRepos
